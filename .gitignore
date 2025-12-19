@@ -1,0 +1,61 @@
+# =========================
+# Laravel
+# =========================
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+!/storage/app/.gitignore
+!/storage/framework/.gitignore
+!/storage/logs/.gitignore
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Cache & Compiled Files
+# =========================
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# =========================
+# IDE & Editor
+# =========================
+.idea
+.vscode
+*.swp
+*.swo
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing & Coverage
+# =========================
+/coverage
+.phpunit.result.cache
+
+# =========================
+# Build Tools
+# =========================
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
